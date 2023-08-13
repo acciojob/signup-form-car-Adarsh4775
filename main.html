@@ -13,10 +13,16 @@
 		<input type="Text" id="name" placeholder="Name" required><br> 
 		  <label for="email">Email</label><br>
 		<input type="Email" id="email" placeholder="Email" required><br>
-		  <label for="gender-m,gender_f">Gender</label><br>
+		  <label for="gender-m">Male</label><br>
 		<input type="Radio" id="gender-m,gender_f" name="gender"  required><br>
+		<label for="gender-f">Female</label><br>
+		<input type="Radio" id="gender_f" name="gender"  required><br>
 		  <label for="cars">Car Brands</label><br>
-		<input type="Select" id="cars" placeholder= "--Please choose an option--" required><br>
+		<select id="cars" name="cars" required>
+  <option value="">--Please choose an option--</option>
+  <!-- Add your options here -->
+</select>
+<br>
 		  <label for="age">Age</label><br>
 		<input type="Number" id="age" placeholder="Age" required><br>
 		  <label for="dob">DOB</label><br>
